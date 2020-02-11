@@ -14,7 +14,7 @@ function CartComponent() {
             height={64}
             className="mr-3"
             src="holder.js/64x64"
-            alt="Product Name-img"
+            alt="ProductName-img"
           />
           <Media.Body>
             <h5>Product Name</h5>

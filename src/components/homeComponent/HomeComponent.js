@@ -22,10 +22,10 @@ class HomeComponent extends Component {
         <h4>Home</h4>
         <div>
           <ListGroup as="ul">
-            <ListGroup.Item as="li" active={this.state.active} onClick={this.change}>item 1</ListGroup.Item>
-            <ListGroup.Item as="li" disabled = {this.state.disabled}>item2</ListGroup.Item>
-            <ListGroup.Item as="li">item3</ListGroup.Item>
-            <ListGroup.Item as="li">item4</ListGroup.Item>
+            <ListGroup.Item as="li" active={this.state.active} onClick={this.change}>type 1</ListGroup.Item>
+            <ListGroup.Item as="li" disabled = {this.state.disabled}>type 2</ListGroup.Item>
+            <ListGroup.Item as="li">type 3</ListGroup.Item>
+            <ListGroup.Item as="li">type 4</ListGroup.Item>
           </ListGroup>
         </div>
       </div>

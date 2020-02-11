@@ -5,13 +5,14 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import CartComponent from './components/cartComponent/CartComponent.js';
 import HomeComponent from './components/homeComponent/HomeComponent.js';
+import ItemsListComponent from './components/itemsListComponent/ItemsListComponent.js';
 function App() {
   return (
 
     <Container fluid="false">
     <Row>
       <Col><HomeComponent/></Col>
-      <Col>2 of 3</Col>
+      <Col><ItemsListComponent/></Col>
       <Col><CartComponent/></Col>
     </Row>
   </Container>
