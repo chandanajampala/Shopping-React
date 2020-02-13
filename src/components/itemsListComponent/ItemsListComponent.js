@@ -18,7 +18,7 @@ class ItemsListComponent extends Component{
     <Card.Text>
       Product description
     </Card.Text>
-    <Button variant="primary">Add to cart</Button>
+    <Button variant="primary"onClick = {() =>this.props.addToCart("obj")}>Add to cart</Button>
   </Card.Body>
 </Card>
 </div>
